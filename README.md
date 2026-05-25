@@ -33,7 +33,7 @@ This project was about getting first-hand experience with a live deployed automa
 - **n8n** — open-source workflow automation engine that orchestrates the entire pipeline. Triggers on incoming Telegram messages, routes them to the LLM, and sends the response back.
 - **Groq** — blazing fast LLM inference API with a free tier. Handles the actual language understanding and response generation.
 - **Telegram Bot API** — the user-facing interface. Handles message delivery, webhook setup, and bot identity.
-
+- **Supadata** - extracts the spoken transcript/subtitles from a YouTube video.
 ---
 
 ## 🔁 How It Works
