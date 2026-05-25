@@ -74,15 +74,6 @@ A real conversation with Dragon:
 - **Fast inference** — Groq delivers sub-second LLM responses
 - **Free to run** — built entirely on free tiers
 
----
-
-## 🤔 Why Dragon?
-
-The bot lives at `t.me/Loki839Bot`. Loki, the god of mischief. A little chaotic, a little clever, always doing something unexpected.
-
-Dragon? Because some names just fit.
-
-...I think we all know. 🐲
 
 ---
 
