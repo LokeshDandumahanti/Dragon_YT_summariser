@@ -8,17 +8,17 @@
 
 ## 🧠 What is Dragon?
 
-Dragon is a deployed Telegram bot that uses a large language model to understand and respond to user messages in real time. It is not a rule-based bot with hardcoded replies. It actually thinks and processes your input through an LLM and returning a contextual, intelligent response.
+Dragon is a deployed Telegram bot that uses a large language model to understand and respond to user messages in real time. It is not a rule-based bot with hardcoded replies. It actually thinks, processing your input through an LLM and returning a contextual, intelligent response.
 
-The goal was simple: move from *building automation* to *deploying automation*. There is a big difference between something that works on localhost and something that is live, handling real users, real inputs, and real edge cases. Dragon is the latter.
+The goal was simple: move from building automation to deploying automation. There is a big difference between something that works on localhost and something that is live, handling real users, real inputs, and real edge cases. Dragon is the latter.
 
 ---
 
 ## 💡 Motivation
 
-Automation has always been a core interest — from studying multi-sensor autonomous UGVs at AVNL/HVF Avadi, to building UAV-UGV collaborative navigation systems at IIT Madras. But most of that work lives in research pipelines, simulation environments, and lab setups.
+Automation has always been a core interest, from studying multi-sensor autonomous UGVs at AVNL/HVF Avadi, to building UAV-UGV collaborative navigation systems at IIT Madras. But most of that work lives in research pipelines, simulation environments, and lab setups.
 
-This project was about getting first-hand experience with a *live deployed automation* — one that real users can interact with right now, without any manual intervention on my end. No scripts to run. No server to babysit. Just a workflow that wakes up when someone sends a message and goes back to sleep when it's done.
+This project was about getting first-hand experience with a live deployed automation, one that real users can interact with right now, without any manual intervention. No scripts to run. No server to babysit. Just a workflow that wakes up when someone sends a message and goes back to sleep when it is done.
 
 ---
 
@@ -32,7 +32,7 @@ This project was about getting first-hand experience with a *live deployed autom
 
 ## 🔁 How It Works
 
-```
+````
 User sends message on Telegram
         ↓
 Telegram Bot API receives message via webhook
@@ -46,11 +46,11 @@ LLM generates a response
 n8n sends response back through Telegram Bot API
         ↓
 User receives reply
-```
+````
 
 ### Workflow Diagram
 
-![n8n Workflow Flowchart](1.png)
+![n8n Workflow Flowchart](assets/1.png)
 
 ---
 
@@ -58,7 +58,7 @@ User receives reply
 
 A real conversation with Dragon:
 
-![Chat Demo](2.png)
+![Chat Demo](assets/2.png)
 
 ---
 
@@ -74,7 +74,7 @@ A real conversation with Dragon:
 
 ## 🤔 Why Dragon?
 
-The bot lives at `t.me/Loki839Bot` — Loki, the god of mischief. A little chaotic, a little clever, always doing something unexpected.
+The bot lives at `t.me/Loki839Bot`. Loki, the god of mischief. A little chaotic, a little clever, always doing something unexpected.
 
 Dragon? Because some names just fit.
 
@@ -84,15 +84,15 @@ Dragon? Because some names just fit.
 
 ## 📣 LinkedIn Post
 
-Read the full story behind the build:  
+Read the full story behind the build:
 [🔗 View LinkedIn Post](https://www.linkedin.com/posts/lokesh-dandumahanti-78b157257_automation-telegrambot-buildinpublic-ugcPost-7464681485271474176-KG16/)
 
 ---
 
 ## 👤 Author
 
-**Lokesh Dandumahanti**  
-Research Associate, IIT Madras (ANRF-PAIR Fellowship) | B.Tech Mechanical Engineering, NIT Puducherry  
-Working on computer vision, autonomous systems, and UAV-UGV navigation.  
+**Lokesh Dandumahanti**
+Research Associate, IIT Madras (ANRF-PAIR Fellowship) | B.Tech Mechanical Engineering, NIT Puducherry
+Working on computer vision, autonomous systems, and UAV-UGV navigation.
 
 Always building. Always automating. 🔥
