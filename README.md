@@ -8,7 +8,7 @@
 
 ## 🧠 What is Dragon?
 
-Dragon is a deployed Telegram bot that uses a large language model to understand and respond to user messages in real time. It is not a rule-based bot with hardcoded replies. It actually thinks — processing your input through an LLM and returning a contextual, intelligent response.
+Dragon is a deployed Telegram bot that uses a large language model to understand and respond to user messages in real time. It is not a rule-based bot with hardcoded replies. It actually thinks and processes your input through an LLM and returning a contextual, intelligent response.
 
 The goal was simple: move from *building automation* to *deploying automation*. There is a big difference between something that works on localhost and something that is live, handling real users, real inputs, and real edge cases. Dragon is the latter.
 
