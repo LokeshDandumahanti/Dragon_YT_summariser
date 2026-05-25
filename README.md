@@ -50,7 +50,7 @@ User receives reply
 
 ### Workflow Diagram
 
-![n8n Workflow Flowchart](assets/1.png)
+![n8n Workflow Flowchart](1.png)
 
 ---
 
@@ -58,7 +58,7 @@ User receives reply
 
 A real conversation with Dragon:
 
-![Chat Demo](assets/2.png)
+![Chat Demo](2.png)
 
 ---
 
