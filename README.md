@@ -14,6 +14,12 @@ The goal was simple: move from building automation to deploying automation. Ther
 
 ---
 
+### Workflow Diagram
+
+![n8n Workflow Flowchart](1.png)
+
+---
+
 ## 💡 Motivation
 
 Automation has always been a core interest, from studying multi-sensor autonomous UGVs at AVNL/HVF Avadi, to building UAV-UGV collaborative navigation systems at IIT Madras. But most of that work lives in research pipelines, simulation environments, and lab setups.
@@ -48,9 +54,7 @@ n8n sends response back through Telegram Bot API
 User receives reply
 ````
 
-### Workflow Diagram
 
-![n8n Workflow Flowchart](1.png)
 
 ---
 
